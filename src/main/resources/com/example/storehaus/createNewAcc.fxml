@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="330.0" prefWidth="275.0" style="-fx-background-color: #808080;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.storehaus.CreateNewAccController">
+   <children>
+      <TextField fx:id="fnID" layoutX="65.0" layoutY="51.0" promptText="Firstname" />
+      <TextField fx:id="lnID" layoutX="65.0" layoutY="106.0" promptText="Lastname" />
+      <TextField fx:id="unID" layoutX="65.0" layoutY="168.0" promptText="Username" />
+      <TextField fx:id="psID" layoutX="65.0" layoutY="219.0" promptText="Passoword" />
+      <Button fx:id="createAccButton" layoutX="62.0" layoutY="270.0" mnemonicParsing="false" onAction="#createAccButton1" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: #A0A0A0;" text="create acc" />
+   </children>
+</AnchorPane>

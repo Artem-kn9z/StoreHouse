@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="620.0" style="-fx-background-color: #C0C0C0;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.storehaus.StorageController">
+   <top>
+      <MenuBar style="-fx-background-color: #808080;" BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+   <left>
+      <AnchorPane prefHeight="375.0" prefWidth="136.0" style="-fx-background-color: #707070;" BorderPane.alignment="CENTER" />
+   </left>
+   <center>
+      <AnchorPane BorderPane.alignment="CENTER">
+         <children>
+            <TableView fx:id="Table" prefHeight="373.0" prefWidth="484.0">
+              <columns>
+                <TableColumn fx:id="nameProduct" prefWidth="97.0" text="NameProduct" />
+                <TableColumn fx:id="barcode" prefWidth="87.0" text="Barcode" />
+                  <TableColumn fx:id="placeOnStorehaus" prefWidth="118.0" text="Plase on storehaus" />
+                  <TableColumn fx:id="number" prefWidth="79.0" text="Number" />
+                  <TableColumn fx:id="numberInStorehaus" prefWidth="102.0" text="Numer in Sorage" />
+              </columns>
+            </TableView>
+         </children></AnchorPane>
+   </center>
+</BorderPane>
