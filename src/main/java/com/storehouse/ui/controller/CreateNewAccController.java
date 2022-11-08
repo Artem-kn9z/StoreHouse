@@ -1,5 +1,8 @@
-package com.example.storehaus;
+package com.storehouse.ui.controller;
 
+import com.storehouse.Const;
+import com.storehouse.DatabaseHandler;
+import com.storehouse.FxmlLoader;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;

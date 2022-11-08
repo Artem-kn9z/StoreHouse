@@ -1,5 +1,6 @@
-package com.example.storehaus;
+package com.storehouse.ui.controller;
 
+import com.storehouse.Const;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;

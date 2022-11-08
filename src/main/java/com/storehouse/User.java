@@ -1,4 +1,4 @@
-package com.example.storehaus;
+package com.storehouse;
 
 public class User {
     private String firstName;

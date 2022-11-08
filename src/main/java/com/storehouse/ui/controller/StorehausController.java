@@ -1,19 +1,13 @@
-package com.example.storehaus;
+package com.storehouse.ui.controller;
 
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
+import com.storehouse.FxmlLoader;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.MenuItem;
-import javafx.scene.control.cell.PropertyValueFactory;
 
 
 import java.io.IOException;
-import java.net.URL;
-import java.sql.ResultSet;
-import java.util.ResourceBundle;
 
 public class StorehausController {
 

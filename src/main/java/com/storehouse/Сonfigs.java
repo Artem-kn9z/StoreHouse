@@ -1,4 +1,4 @@
-package com.example.storehaus;
+package com.storehouse;
 
 public class Сonfigs {
     protected String dbHost = "localhost";

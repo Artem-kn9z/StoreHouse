@@ -1,4 +1,4 @@
-package com.example.storehaus;
+package com.storehouse;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;

@@ -1,5 +1,7 @@
-package com.example.storehaus;
+package com.storehouse.ui.controller;
 
+import com.storehouse.DatabaseHandler;
+import com.storehouse.Product;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
